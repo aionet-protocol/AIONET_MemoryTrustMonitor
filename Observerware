@@ -1,0 +1,14 @@
+git clone https://gitlab.com/gridhead/observerware.git
+cd observerware
+
+# Optional: Install dependencies if not already present
+sudo apt update
+sudo apt install -y python3-pip libqt5charts5-dev
+pip3 install -r requirements.txt
+
+# Run Observerware in system monitor mode
+python3 obserware.py &
+
+# Begin entropy fingerprint logging (placeholder for future PoD integration)
+mkdir -p ../logs
+echo "Initializing AIONET PoM Entropy Logger..." > ../logs/init.log
