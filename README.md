@@ -1,3 +1,22 @@
+# 🧠 AIONET Memory Trust Monitor
+
+> ⚠️ Diagnostic Submodule of [AIONET Protocol](https://github.com/aionet-protocol)  
+> 🧪 *Early-stage entropy logger for internal use only*
+
+This lightweight Rust/C++ module logs basic system memory behavior (faults, usage, and entropy deltas).  
+It serves as a *PoM/PoD input sensor* for testing and validation — **not the full protocol layer**.
+
+---
+
+**This repository:**
+- ✅ Tracks observable memory behavior (DRAM, virtual memory, page faults)
+- ❌ Does **not** contain AIONET validator logic, AI drift scoring, or Layer integrations
+- ❌ Does **not** expose trust-weighting, tokenomics, or consensus mechanisms
+
+For more about the full protocol, visit [AIONET.tech](https://aionet.tech).
+
+
+
 # Resources
 
 <a href='https://flathub.org/apps/net.nokyan.Resources'><img width='240' alt='Download on Flathub' src='https://flathub.org/api/badge?svg&locale=en'/></a>
